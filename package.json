@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/server-brave-search": "^0.6.2",
+    "@modelcontextprotocol/server-gdrive": "^2025.1.14"
+  }
+}
