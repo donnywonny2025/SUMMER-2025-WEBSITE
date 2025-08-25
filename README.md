@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jeffrey Kerr - Professional Portfolio Website
 
-## Getting Started
+A modern, responsive personal portfolio website for Jeffrey Kerr, showcasing professional skills, projects, and experience.
 
-First, run the development server:
+🌐 **Live Site**: [jeffreykerr.com](https://jeffreykerr.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🔗 Professional Links
+
+- **Portfolio Website**: [jeffreykerr.com](https://jeffreykerr.com)
+- **Vimeo Portfolio**: [vimeo.com/jeffreykerr](https://vimeo.com/jeffreykerr)
+- **Email**: hello@jeffreykerr.com
+
+## 🚀 Features
+
+- **Modern Design**: Clean, professional layout with smooth animations
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Performance Optimized**: Fast loading with modern web standards
+- **SEO Ready**: Proper meta tags and semantic HTML structure
+- **Contact Form**: Interactive contact section for inquiries
+- **Portfolio Showcase**: Dedicated section for projects and work
+
+## 🛠️ Tech Stack
+
+- **HTML5**: Semantic markup and accessibility
+- **CSS3**: Modern styling with Grid, Flexbox, and animations
+- **JavaScript**: Interactive functionality
+- **Google Fonts**: Inter font family for clean typography
+- **Netlify**: Hosting and continuous deployment
+- **GitHub**: Version control and source management
+
+## 📁 Project Structure
+
+```
+├── index.html          # Main homepage
+├── css/
+│   └── styles.css      # Main stylesheet
+├── js/
+│   ├── main.js         # Core JavaScript functionality
+│   └── quicksort.js    # Algorithm demonstrations
+├── assets/             # Static assets
+├── images/             # Image files
+├── docs/               # Documentation
+└── README.md           # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Color Scheme**: Professional gradient palette with purple/blue tones
+- **Typography**: Inter font family for excellent readability
+- **Layout**: CSS Grid and Flexbox for responsive design
+- **Animations**: Smooth hover effects and page transitions
+- **Mobile-First**: Responsive design approach
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Deployment
 
-## Learn More
+### Netlify Setup
+1. Connected to GitHub repository: `SUMMER-2025-WEBSITE`
+2. Automatic deployments on push to `main` branch
+3. Custom domain: `jeffreykerr.com`
+4. SSL certificate automatically provisioned
 
-To learn more about Next.js, take a look at the following resources:
+### Local Development
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/donnywonny2025/SUMMER-2025-WEBSITE.git
+   ```
+2. Open `index.html` in your browser
+3. For live reload during development, use a local server:
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js
+   npx serve .
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📧 Contact Information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Email**: hello@jeffreykerr.com
+- **Website**: [jeffreykerr.com](https://jeffreykerr.com)
+- **GitHub**: [@donnywonny2025](https://github.com/donnywonny2025)
 
-## Deploy on Vercel
+## 🔄 Updates & Maintenance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Regular content updates
+- Performance monitoring
+- SEO optimization
+- Security best practices
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+All rights reserved © 2025 Jeffrey Kerr
+
+---
+
+**Built with passion and attention to detail** 🎵
+
+*This website represents Jeffrey Kerr's professional online presence, designed to showcase skills, experience, and projects in a clean, modern format.*
+>>>>>>> 0505292ca102fb18ce47b521ccd9b646f6536c40
