@@ -1,0 +1,469 @@
+{
+  "title": "Create Next App",
+  "animations": [
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 animate-gradient-x",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-tr from-transparent via-blue-500/10 to-purple-500/20 animate-pulse",
+      "visible": true
+    },
+    {
+      "tag": "svg",
+      "classes": {},
+      "visible": false
+    },
+    {
+      "tag": "SPAN",
+      "classes": "w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row group-hover:[animation-play-state:paused]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row group-hover:[animation-play-state:paused]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row group-hover:[animation-play-state:paused]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row group-hover:[animation-play-state:paused]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    }
+  ],
+  "gradients": [
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 animate-gradient-x",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-tr from-transparent via-blue-500/10 to-purple-500/20 animate-pulse",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-blue-500 to-purple-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-purple-500 to-pink-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-pink-500 to-red-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-red-500 to-orange-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-orange-500 to-yellow-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-yellow-500 to-green-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-blue-500 to-purple-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-purple-500 to-pink-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-pink-500 to-red-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-red-500 to-orange-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-orange-500 to-yellow-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute bg-gradient-to-br from-yellow-500 to-green-600 opacity-80",
+      "visible": false
+    },
+    {
+      "tag": "SECTION",
+      "classes": "py-12 border-t border-slate-200 overflow-hidden relative z-20 bg-gradient-to-br from-slate-50 to-blue-50",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/5 pointer-events-none",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 transition-opacity duration-300 hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/5 pointer-events-none",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/5 pointer-events-none",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/5 pointer-events-none",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "pointer-events-none absolute inset-0 rounded-[inherit] before:absolute before:inset-0 before:rounded-[inherit] before:p-[2px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-pink-500 before:animate-border-beam before:[animation-delay:var(--delay)] before:[mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[mask-composite:xor]",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100",
+      "visible": true
+    },
+    {
+      "tag": "DIV",
+      "classes": "absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100",
+      "visible": true
+    }
+  ],
+  "errors": [],
+  "performance": {
+    "loadTime": 971.2999999988824,
+    "domElements": 596,
+    "images": 0,
+    "scripts": 68
+  }
+}

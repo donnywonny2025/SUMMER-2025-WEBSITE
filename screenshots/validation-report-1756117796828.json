@@ -1,0 +1,66 @@
+{
+  "timestamp": 1756117796828,
+  "issues": [],
+  "passed": [
+    {
+      "message": "Name \"Jeffrey KerrAboutPortfolioContactResumeAvailable f\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117802453
+    },
+    {
+      "message": "Name \"Jeffrey KerrAboutPortfolioContactResume\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117802453
+    },
+    {
+      "message": "Name \"Jeffrey KerrAboutPortfolioContactResume\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117802453
+    },
+    {
+      "message": "Name \"Jeffrey Kerr\" is visible with color: lab(7.78673 1.82345 -15.0537)",
+      "timestamp": 1756117802453
+    },
+    {
+      "message": "Name \"Available for new opportunitiesHi, I'm Jeffrey Ker\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117802453
+    },
+    {
+      "message": "Name \"Available for new opportunitiesHi, I'm Jeffrey Ker\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117802453
+    },
+    {
+      "message": "Name \"Hi, I'm Jeffrey Kerr\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117802453
+    },
+    {
+      "message": "Name \"Jeffrey Kerr\" is visible with color: lab(7.78673 1.82345 -15.0537)",
+      "timestamp": 1756117802453
+    },
+    {
+      "message": "All text elements have adequate contrast ratios",
+      "timestamp": 1756117802455
+    },
+    {
+      "message": "Spacing and layout appear well-balanced",
+      "timestamp": 1756117802456
+    },
+    {
+      "message": "Animation performance appears smooth",
+      "timestamp": 1756117807458
+    },
+    {
+      "message": "Responsive layout testing completed",
+      "timestamp": 1756117810523
+    },
+    {
+      "message": "Basic accessibility checks passed",
+      "timestamp": 1756117810524
+    }
+  ],
+  "score": 100,
+  "summary": {
+    "totalIssues": 0,
+    "criticalIssues": 0,
+    "highIssues": 0,
+    "mediumIssues": 0,
+    "passedChecks": 13
+  }
+}

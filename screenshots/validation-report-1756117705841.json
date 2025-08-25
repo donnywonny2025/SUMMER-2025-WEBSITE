@@ -1,0 +1,181 @@
+{
+  "timestamp": 1756117705841,
+  "issues": [
+    {
+      "severity": "CRITICAL",
+      "message": "Name \"Jeffrey Kerr\" has transparent color - likely gradient text issue",
+      "timestamp": 1756117710468
+    },
+    {
+      "severity": "HIGH",
+      "message": "Low contrast ratio (1.00:1) for text: \"Jeffrey Kerr\"",
+      "timestamp": 1756117710469
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Heading \"AI & Machine Learnin\" has insufficient bottom margin (0px)",
+      "timestamp": 1756117710469
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Heading \"Full-Stack Developme\" has insufficient bottom margin (0px)",
+      "timestamp": 1756117710469
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Heading \"Creative Technology\" has insufficient bottom margin (0px)",
+      "timestamp": 1756117710469
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Text too small on mobile: 12px",
+      "timestamp": 1756117716483
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Heading hierarchy skip: H3 after H1",
+      "timestamp": 1756117718511
+    }
+  ],
+  "passed": [
+    {
+      "message": "Name \"Jeffrey KerrAboutPortfolioContactResumeAvailable f\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117710468
+    },
+    {
+      "message": "Name \"Jeffrey KerrAboutPortfolioContactResume\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117710468
+    },
+    {
+      "message": "Name \"Jeffrey KerrAboutPortfolioContactResume\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117710468
+    },
+    {
+      "message": "Name \"Jeffrey Kerr\" is visible with color: lab(7.78673 1.82345 -15.0537)",
+      "timestamp": 1756117710468
+    },
+    {
+      "message": "Name \"Available for new opportunitiesHi, I'm Jeffrey Ker\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117710468
+    },
+    {
+      "message": "Name \"Available for new opportunitiesHi, I'm Jeffrey Ker\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117710468
+    },
+    {
+      "message": "Name \"Hi, I'm Jeffrey Kerr\" is visible with color: lab(2.75381 0 0)",
+      "timestamp": 1756117710468
+    },
+    {
+      "message": "Animation performance appears smooth",
+      "timestamp": 1756117715472
+    },
+    {
+      "message": "Responsive layout testing completed",
+      "timestamp": 1756117718510
+    }
+  ],
+  "score": 0,
+  "summary": {
+    "totalIssues": 26,
+    "criticalIssues": 1,
+    "highIssues": 1,
+    "mediumIssues": 24,
+    "passedChecks": 9
+  }
+}
