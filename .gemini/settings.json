@@ -1,0 +1,21 @@
+{
+  "selectedAuthType": "oauth-personal",
+  "theme": "Default",
+  "autoAccept": false,
+  "sandbox": "docker",
+  "checkpointing": { "enabled": true },
+  "fileFiltering": { "respectGitIgnore": true },
+  "usageStatisticsEnabled": true,
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-github", "stdio"],
+      "env": {}
+    },
+    "gdrive": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-gdrive", "stdio"],
+      "env": {}
+    }
+  }
+}
