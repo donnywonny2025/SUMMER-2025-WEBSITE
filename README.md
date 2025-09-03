@@ -96,4 +96,3 @@ All rights reserved © 2025 Jeffrey Kerr
 **Built with passion and attention to detail** 🎵
 
 *This website represents Jeffrey Kerr's professional online presence, designed to showcase skills, experience, and projects in a clean, modern format.*
->>>>>>> 0505292ca102fb18ce47b521ccd9b646f6536c40
