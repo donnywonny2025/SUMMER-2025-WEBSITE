@@ -311,43 +311,40 @@ When starting a new jam or handing off to another developer:
 ---
 
 **Last Updated**: September 3, 2025  
-**Status**: Production Ready ✅ - Domain spelling corrected repository-wide  
-**Next Steps**: Major visual upgrade with dynamic video backgrounds planned (Sept 3, 2025)
+**Status**: Major Dynamic Redesign In Progress 🎬 - Tom Seymour Style Implementation
+**Next Steps**: Full cinematic video experience using Jeffrey's 22 Vimeo videos
 
 ---
 
-## 🎬 **CURRENT PROJECT: Dynamic Video Upgrade (Sept 3, 2025)**
+## 🎬 **CURRENT PROJECT: Dynamic Video Redesign (Sept 3, 2025)**
 
-### **Objective**: Transform Static Portfolio into Dynamic Video Experience
+### **Objective**: Create Tom Seymour-Style Cinematic Experience
 
-**Inspiration**: Tom Seymour Creative Director site (https://tom-seymour-creative-director.webflow.io/)
-- Cinematic video backgrounds with smooth scroll triggers
-- Constant motion and animations throughout site  
-- Immersive user experience that showcases video production skills
-- Premium, cutting-edge aesthetic
+**Target Aesthetic**: Clean, slick, dynamic, premium creative director portfolio
+**Inspiration**: https://tom-seymour-creative-director.webflow.io/
+**Content**: Jeffrey's own 22 professional videos from https://vimeo.com/thekerrmediagroup
 
-### **Current Assessment**:
-**Jeffrey's Site**: Clean, professional, but static - doesn't demonstrate video/creative capabilities
-**Tom's Site**: Dynamic, engaging, videos continuously playing - immediately shows expertise
+### **Implementation Strategy**:
+1. **Full-screen video backgrounds** for all major sections
+2. **Scroll-triggered video playback** with smooth transitions
+3. **Professional overlays** for text readability
+4. **Constant motion** throughout user experience
+5. **Mobile-optimized** video handling
 
-### **Planned Implementation**:
-1. **Hero Video Background**: Replace static hero with cinematic video
-2. **Scroll-Triggered Videos**: Add video sections throughout site
-3. **Smooth Animations**: Implement parallax and motion effects
-4. **Video Integration**: Mix of Vimeo embeds and Netlify-hosted videos
-5. **Maintain Content**: Keep existing structure but bring it to life
-
-### **Video Resources Available**:
-- Vimeo embed links (provided by user)
-- Videos to upload to Netlify
-- Showcase Jeffrey's actual production work
+### **Video Mapping Plan**:
+- **Hero**: REEL 2024 (1:41) ✅ Implemented
+- **About**: Century Aluminum (8:15) - Corporate expertise
+- **Services/AI**: RIS 2019 Promo (0:45) - Innovation focus  
+- **Portfolio**: Multiple videos cycling through work types
+- **Clients**: Wil Open Video (2:11) - Event/conference credibility
+- **Contact**: Subtle background video for engagement
 
 ### **Technical Approach**:
 - Intersection Observer API for scroll triggers
-- Optimized video formats for web delivery
-- GPU acceleration for smooth animations
-- Mobile-responsive video handling
-- Maintain current semantic HTML structure
+- CSS transforms and GPU acceleration
+- Video optimization for web delivery
+- Layered typography and overlays
+- Smooth section transitions
 
-**Status**: Planning phase - awaiting video links and content direction
-**Priority**: High - Major competitive advantage over current static design
+**Status**: Full redesign in progress - building premium cinematic experience
+**Priority**: Maximum - Transform static site into dynamic showcase
