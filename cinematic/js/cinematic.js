@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 heroVideo.contentWindow.postMessage('{"method":"play"}', '*');
                 heroVideo.setAttribute('data-loaded', 'true');
-            }, 1000);
+            }, 300);
         }
     });
 
