@@ -312,4 +312,42 @@ When starting a new jam or handing off to another developer:
 
 **Last Updated**: September 3, 2025  
 **Status**: Production Ready ✅ - Domain spelling corrected repository-wide  
-**Next Steps**: Merge domain correction PR, then content enhancement as needed
+**Next Steps**: Major visual upgrade with dynamic video backgrounds planned (Sept 3, 2025)
+
+---
+
+## 🎬 **CURRENT PROJECT: Dynamic Video Upgrade (Sept 3, 2025)**
+
+### **Objective**: Transform Static Portfolio into Dynamic Video Experience
+
+**Inspiration**: Tom Seymour Creative Director site (https://tom-seymour-creative-director.webflow.io/)
+- Cinematic video backgrounds with smooth scroll triggers
+- Constant motion and animations throughout site  
+- Immersive user experience that showcases video production skills
+- Premium, cutting-edge aesthetic
+
+### **Current Assessment**:
+**Jeffrey's Site**: Clean, professional, but static - doesn't demonstrate video/creative capabilities
+**Tom's Site**: Dynamic, engaging, videos continuously playing - immediately shows expertise
+
+### **Planned Implementation**:
+1. **Hero Video Background**: Replace static hero with cinematic video
+2. **Scroll-Triggered Videos**: Add video sections throughout site
+3. **Smooth Animations**: Implement parallax and motion effects
+4. **Video Integration**: Mix of Vimeo embeds and Netlify-hosted videos
+5. **Maintain Content**: Keep existing structure but bring it to life
+
+### **Video Resources Available**:
+- Vimeo embed links (provided by user)
+- Videos to upload to Netlify
+- Showcase Jeffrey's actual production work
+
+### **Technical Approach**:
+- Intersection Observer API for scroll triggers
+- Optimized video formats for web delivery
+- GPU acceleration for smooth animations
+- Mobile-responsive video handling
+- Maintain current semantic HTML structure
+
+**Status**: Planning phase - awaiting video links and content direction
+**Priority**: High - Major competitive advantage over current static design
