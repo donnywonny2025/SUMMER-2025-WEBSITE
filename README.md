@@ -2,13 +2,13 @@
 
 A modern, responsive personal portfolio website for Jeffrey Kerr, showcasing professional skills, projects, and experience.
 
-🌐 **Live Site**: [jeffreykerr.com](https://jeffreykerr.com)
+🌐 **Live Site**: [jefferykerr.com](https://jefferykerr.com)
 
 ## 🔗 Professional Links
 
-- **Portfolio Website**: [jeffreykerr.com](https://jeffreykerr.com)
+- **Portfolio Website**: [jefferykerr.com](https://jefferykerr.com)
 - **Vimeo Portfolio**: [vimeo.com/jeffreykerr](https://vimeo.com/jeffreykerr)
-- **Email**: hello@jeffreykerr.com
+- **Email**: hello@jefferykerr.com
 
 ## 🚀 Features
 
@@ -56,7 +56,7 @@ A modern, responsive personal portfolio website for Jeffrey Kerr, showcasing pro
 ### Netlify Setup
 1. Connected to GitHub repository: `SUMMER-2025-WEBSITE`
 2. Automatic deployments on push to `main` branch
-3. Custom domain: `jeffreykerr.com`
+3. Custom domain: `jefferykerr.com`
 4. SSL certificate automatically provisioned
 
 ### Local Development
@@ -76,8 +76,8 @@ A modern, responsive personal portfolio website for Jeffrey Kerr, showcasing pro
 
 ## 📧 Contact Information
 
-- **Email**: hello@jeffreykerr.com
-- **Website**: [jeffreykerr.com](https://jeffreykerr.com)
+- **Email**: hello@jefferykerr.com
+- **Website**: [jefferykerr.com](https://jefferykerr.com)
 - **GitHub**: [@donnywonny2025](https://github.com/donnywonny2025)
 
 ## 🔄 Updates & Maintenance

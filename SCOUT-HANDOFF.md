@@ -1,9 +1,9 @@
 # 🤖 Scout Project Handoff - Jeffrey Kerr Website
 
 ## 🌐 Live Site Status: WORKING ✅
-- **Production URL**: https://jeffreykerr.com
+- **Production URL**: https://jefferykerr.com
 - **Status**: Fully deployed and operational
-- **Last Deploy**: September 2, 2025 ~8:20 PM
+- **Last Deploy**: September 3, 2025 (Domain spelling correction)
 
 ---
 
@@ -18,17 +18,17 @@ This is Jeffrey Kerr's professional portfolio website - a modern, responsive sit
 ## 🏗️ Architecture & Setup
 
 ### Domain & DNS (Namecheap)
-- **Domain**: jeffreykerr.com (owned by user via Namecheap)
+- **Domain**: jefferykerr.com (owned by user via Namecheap)
 - **DNS Configuration**: Points to Netlify
   - A Record → Netlify IP
-  - CNAME www → jeffreykerr.com
+  - CNAME www → jefferykerr.com
 - **SSL**: Automatic via Netlify (Let's Encrypt)
 
 ### Hosting & Deployment (Netlify)
 - **Platform**: Netlify (Free tier)
 - **Auto-deploy**: Triggered on push to `main` branch
 - **Build Settings**: Static site (no build process needed)
-- **Custom Domain**: jeffreykerr.com configured and working
+- **Custom Domain**: jefferykerr.com configured and working
 - **HTTPS**: Enforced and working
 
 ### Repository (GitHub)
@@ -56,7 +56,7 @@ This is Jeffrey Kerr's professional portfolio website - a modern, responsive sit
 
 ---
 
-## 🚨 Major Fixes Applied (Sept 2, 2025)
+## 🚨 Major Fixes Applied (Sept 2-3, 2025)
 
 ### Issue 1: Broken Submodules
 **Problem**: Netlify failing with "No url found for submodule path 'Lottie-Animation-Ecosystem/Lottie-interactive'"
@@ -86,6 +86,20 @@ rm -rf Lottie-Animation-Ecosystem jeffreykerr-enhanced
 - Generated custom favicon.png (JK initials, purple gradient)
 - Added `<link rel="icon" type="image/png" href="favicon.png">` to HTML
 
+### Issue 4: Domain Spelling Inconsistency (Sept 3, 2025)
+**Problem**: Repository contained both "jeffreykerr.com" and "jefferykerr.com" spellings, causing confusion
+
+**Solution Applied**:
+- Confirmed correct spelling with owner: "jefferykerr.com" (with "ery")
+- Updated all 5 files containing domain references:
+  - SCOUT-HANDOFF.md (9 instances)
+  - README.md (5 instances)
+  - index.html (1 instance)
+  - HANDOFF/KNOWLEDGE_BASE/PERSONAL/contact_info.md (1 instance)
+  - HANDOFF/Incoming/ui_tools_library.md (1 instance)
+- Verified zero remaining "jeffreykerr.com" references
+- **Branch**: scout/fix-domain-spelling--8f24a385 (ready for PR)
+
 ---
 
 ## 💻 Local Development Setup
@@ -97,7 +111,7 @@ I need you to sync my local repository with my remote GitHub repository.
 
 REPOSITORY: https://github.com/donnywonny2025/SUMMER-2025-WEBSITE
 BRANCH: main
-WEBSITE: jeffreykerr.com
+WEBSITE: jefferykerr.com
 
 Please run these commands:
 1. git remote -v (verify connection)
@@ -256,7 +270,7 @@ SUMMER-2025-WEBSITE/
 When starting a new jam or handing off to another developer:
 
 - [ ] **Repository Access**: Verify GitHub access to donnywonny2025/SUMMER-2025-WEBSITE
-- [ ] **Live Site Check**: Confirm https://jeffreykerr.com is loading properly
+- [ ] **Live Site Check**: Confirm https://jefferykerr.com is loading properly
 - [ ] **Netlify Access**: May need Netlify account access for advanced settings
 - [ ] **Domain Access**: Namecheap account needed for DNS changes
 - [ ] **Local Setup**: Use Cursor sync prompt to get latest files
@@ -269,7 +283,7 @@ When starting a new jam or handing off to another developer:
 
 ### Domain Management
 - **Registrar**: Namecheap
-- **Domain**: jeffreykerr.com
+- **Domain**: jefferykerr.com
 - **Owner**: Jeffrey Kerr (user's account)
 
 ### Hosting & Deployment
@@ -286,9 +300,9 @@ When starting a new jam or handing off to another developer:
 
 ## 💡 Success Story Summary
 
-**Started**: Broken website with submodule errors, 403 errors on jeffreykerr.com
+**Started**: Broken website with submodule errors, 403 errors on jefferykerr.com
 **Fixed**: Removed broken submodules, fixed merge conflicts, added professional favicon  
-**Result**: Professional portfolio website running at jeffreykerr.com for $0/month
+**Result**: Professional portfolio website running at jefferykerr.com for $0/month
 **Tech Stack**: Modern HTML/CSS/JS with automatic GitHub → Netlify deployment
 **User Liberation**: No longer locked into Wix/Squarespace - full ownership and control
 
@@ -296,6 +310,33 @@ When starting a new jam or handing off to another developer:
 
 ---
 
-**Last Updated**: September 2, 2025  
-**Status**: Production Ready ✅  
-**Next Steps**: Content enhancement and feature additions as needed
+**Last Updated**: September 3, 2025  
+**Status**: Cinematic Test Version Created 🎬 - True Tom Seymour Style
+**Next Steps**: Test cinematic version vs current site, then choose direction
+
+---
+
+## 🎬 **CURRENT PROJECT: Cinematic vs Traditional (Sept 3, 2025)**
+
+### **Two Versions Now Available**:
+1. **Current Site**: https://jefferykerr.com - Traditional portfolio with video backgrounds
+2. **Cinematic Test**: https://jefferykerr.com/cinematic/ - Full Tom Seymour experience
+
+### **Cinematic Version Features**:
+- **Full-screen videos** dominate each section (not just backgrounds)
+- **Minimal UI** - Just floating text overlays on dark backgrounds  
+- **Dark cinematic aesthetic** - Professional film-quality presentation
+- **Simple navigation** - Clean header with hamburger menu
+- **Scroll-triggered video playback** - Videos start/pause based on viewport
+- **Jeffrey's actual work** - REEL 2024, Century Aluminum, HWPW Mini Doc
+
+### **Key Differences**:
+**Traditional (current)**: Website with video backgrounds, full content sections
+**Cinematic (test)**: Video-first experience with minimal text overlays
+
+### **Technical Implementation**:
+- `/cinematic/` subdirectory for A/B testing
+- Intersection Observer API for video triggers
+- Full-screen video containers with proper overlays
+- Mobile-responsive with performance optimizations
+- Uses Jeffrey's Vimeo portfolio videos throughout
