@@ -84,10 +84,10 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 120vw;
-    height: 67.5vw; /* 16:9 aspect ratio scaled up */
-    min-height: 120vh;
-    min-width: 213.33vh; /* 16:9 aspect ratio scaled up */
+    width: 130vw;
+    height: 73vw; /* 16:9 aspect ratio scaled up */
+    min-height: 130vh;
+    min-width: 231vh; /* 16:9 aspect ratio scaled up */
     transform: translate(-50%, -50%);
     object-fit: cover;
     pointer-events: none;
@@ -313,10 +313,10 @@ body {
     }
     
     .video-container iframe {
-        width: 120vw;
-        height: 120vh;
-        min-height: 120vh;
-        min-width: 120vw;
+        width: 130vw;
+        height: 130vh;
+        min-height: 130vh;
+        min-width: 130vw;
     }
 }
 
