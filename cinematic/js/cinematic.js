@@ -56,9 +56,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Preload videos for better performance
     const iframes = document.querySelectorAll('iframe');
-    iframes.forEach(iframe => {
+    iframes.forEach((iframe, index) => {
         iframe.addEventListener('load', function() {
             this.setAttribute('data-loaded', 'true');
+            // Preload next video
+            if (index < iframes.length - 1) {
+                const nextIframe = iframes[index + 1];
+                setTimeout(() => {
+                    nextIframe.contentWindow.postMessage('{"method":"preload"}', '*');
+                }, 500);
+            }
         });
     });
 
