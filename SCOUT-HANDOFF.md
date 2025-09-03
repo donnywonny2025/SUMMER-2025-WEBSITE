@@ -311,40 +311,32 @@ When starting a new jam or handing off to another developer:
 ---
 
 **Last Updated**: September 3, 2025  
-**Status**: Major Dynamic Redesign In Progress 🎬 - Tom Seymour Style Implementation
-**Next Steps**: Full cinematic video experience using Jeffrey's 22 Vimeo videos
+**Status**: Cinematic Test Version Created 🎬 - True Tom Seymour Style
+**Next Steps**: Test cinematic version vs current site, then choose direction
 
 ---
 
-## 🎬 **CURRENT PROJECT: Dynamic Video Redesign (Sept 3, 2025)**
+## 🎬 **CURRENT PROJECT: Cinematic vs Traditional (Sept 3, 2025)**
 
-### **Objective**: Create Tom Seymour-Style Cinematic Experience
+### **Two Versions Now Available**:
+1. **Current Site**: https://jefferykerr.com - Traditional portfolio with video backgrounds
+2. **Cinematic Test**: https://jefferykerr.com/cinematic/ - Full Tom Seymour experience
 
-**Target Aesthetic**: Clean, slick, dynamic, premium creative director portfolio
-**Inspiration**: https://tom-seymour-creative-director.webflow.io/
-**Content**: Jeffrey's own 22 professional videos from https://vimeo.com/thekerrmediagroup
+### **Cinematic Version Features**:
+- **Full-screen videos** dominate each section (not just backgrounds)
+- **Minimal UI** - Just floating text overlays on dark backgrounds  
+- **Dark cinematic aesthetic** - Professional film-quality presentation
+- **Simple navigation** - Clean header with hamburger menu
+- **Scroll-triggered video playback** - Videos start/pause based on viewport
+- **Jeffrey's actual work** - REEL 2024, Century Aluminum, HWPW Mini Doc
 
-### **Implementation Strategy**:
-1. **Full-screen video backgrounds** for all major sections
-2. **Scroll-triggered video playback** with smooth transitions
-3. **Professional overlays** for text readability
-4. **Constant motion** throughout user experience
-5. **Mobile-optimized** video handling
+### **Key Differences**:
+**Traditional (current)**: Website with video backgrounds, full content sections
+**Cinematic (test)**: Video-first experience with minimal text overlays
 
-### **Video Mapping Plan**:
-- **Hero**: REEL 2024 (1:41) ✅ Implemented
-- **About**: Century Aluminum (8:15) - Corporate expertise
-- **Services/AI**: RIS 2019 Promo (0:45) - Innovation focus  
-- **Portfolio**: Multiple videos cycling through work types
-- **Clients**: Wil Open Video (2:11) - Event/conference credibility
-- **Contact**: Subtle background video for engagement
-
-### **Technical Approach**:
-- Intersection Observer API for scroll triggers
-- CSS transforms and GPU acceleration
-- Video optimization for web delivery
-- Layered typography and overlays
-- Smooth section transitions
-
-**Status**: Full redesign in progress - building premium cinematic experience
-**Priority**: Maximum - Transform static site into dynamic showcase
+### **Technical Implementation**:
+- `/cinematic/` subdirectory for A/B testing
+- Intersection Observer API for video triggers
+- Full-screen video containers with proper overlays
+- Mobile-responsive with performance optimizations
+- Uses Jeffrey's Vimeo portfolio videos throughout
