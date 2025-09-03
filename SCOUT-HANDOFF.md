@@ -1,7 +1,7 @@
 # 🤖 Scout Project Handoff - Jeffrey Kerr Website
 
 ## 🌐 Live Site Status: WORKING ✅
-- **Production URL**: https://jeffreykerr.com
+- **Production URL**: https://jefferykerr.com
 - **Status**: Fully deployed and operational
 - **Last Deploy**: September 2, 2025 ~8:20 PM
 
@@ -18,17 +18,17 @@ This is Jeffrey Kerr's professional portfolio website - a modern, responsive sit
 ## 🏗️ Architecture & Setup
 
 ### Domain & DNS (Namecheap)
-- **Domain**: jeffreykerr.com (owned by user via Namecheap)
+- **Domain**: jefferykerr.com (owned by user via Namecheap)
 - **DNS Configuration**: Points to Netlify
   - A Record → Netlify IP
-  - CNAME www → jeffreykerr.com
+  - CNAME www → jefferykerr.com
 - **SSL**: Automatic via Netlify (Let's Encrypt)
 
 ### Hosting & Deployment (Netlify)
 - **Platform**: Netlify (Free tier)
 - **Auto-deploy**: Triggered on push to `main` branch
 - **Build Settings**: Static site (no build process needed)
-- **Custom Domain**: jeffreykerr.com configured and working
+- **Custom Domain**: jefferykerr.com configured and working
 - **HTTPS**: Enforced and working
 
 ### Repository (GitHub)
@@ -97,7 +97,7 @@ I need you to sync my local repository with my remote GitHub repository.
 
 REPOSITORY: https://github.com/donnywonny2025/SUMMER-2025-WEBSITE
 BRANCH: main
-WEBSITE: jeffreykerr.com
+WEBSITE: jefferykerr.com
 
 Please run these commands:
 1. git remote -v (verify connection)
@@ -256,7 +256,7 @@ SUMMER-2025-WEBSITE/
 When starting a new jam or handing off to another developer:
 
 - [ ] **Repository Access**: Verify GitHub access to donnywonny2025/SUMMER-2025-WEBSITE
-- [ ] **Live Site Check**: Confirm https://jeffreykerr.com is loading properly
+- [ ] **Live Site Check**: Confirm https://jefferykerr.com is loading properly
 - [ ] **Netlify Access**: May need Netlify account access for advanced settings
 - [ ] **Domain Access**: Namecheap account needed for DNS changes
 - [ ] **Local Setup**: Use Cursor sync prompt to get latest files
@@ -269,7 +269,7 @@ When starting a new jam or handing off to another developer:
 
 ### Domain Management
 - **Registrar**: Namecheap
-- **Domain**: jeffreykerr.com
+- **Domain**: jefferykerr.com
 - **Owner**: Jeffrey Kerr (user's account)
 
 ### Hosting & Deployment
@@ -286,9 +286,9 @@ When starting a new jam or handing off to another developer:
 
 ## 💡 Success Story Summary
 
-**Started**: Broken website with submodule errors, 403 errors on jeffreykerr.com
+**Started**: Broken website with submodule errors, 403 errors on jefferykerr.com
 **Fixed**: Removed broken submodules, fixed merge conflicts, added professional favicon  
-**Result**: Professional portfolio website running at jeffreykerr.com for $0/month
+**Result**: Professional portfolio website running at jefferykerr.com for $0/month
 **Tech Stack**: Modern HTML/CSS/JS with automatic GitHub → Netlify deployment
 **User Liberation**: No longer locked into Wix/Squarespace - full ownership and control
 

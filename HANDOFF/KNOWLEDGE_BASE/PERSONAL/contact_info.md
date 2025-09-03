@@ -13,7 +13,7 @@
 
 ### **Professional Websites**
 - **Current Site**: www.jeffkerr.com
-- **New Domain**: jeffreykerr.com (in development)
+- **New Domain**: jefferykerr.com (in development)
 - **Business**: The Kerr Media Group
 
 ### **Social Media Profiles**
