@@ -20,7 +20,7 @@ npm install lucide-react @radix-ui/react-slot
 
 ## 1. 🏆 **TAIL ARC** - Landing Page Master
 **Website**: https://tailarc.com  
-**Priority**: ⭐⭐⭐⭐⭐ (Use FIRST for jeffreykerr.com)
+**Priority**: ⭐⭐⭐⭐⭐ (Use FIRST for jefferykerr.com)
 
 ### **When Jeff Says**: "Make the homepage look professional" | "I need a hero section" | "Build a landing page"
 
