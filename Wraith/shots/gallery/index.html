@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Regression Test Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: #fff;
+            padding: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        
+        .stat {
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            min-width: 120px;
+        }
+        
+        .stat.total { background: #e3f2fd; color: #1976d2; }
+        .stat.passed { background: #e8f5e8; color: #2e7d32; }
+        .stat.failed { background: #ffebee; color: #c62828; }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .test-item {
+            background: #fff;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .test-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .test-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .test-status {
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .status-passed {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+        
+        .status-failed {
+            background: #ffebee;
+            color: #c62828;
+        }
+        
+        .status-missing {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+        
+        .status-error {
+            background: #fce4ec;
+            color: #ad1457;
+        }
+        
+        .test-content {
+            padding: 1.5rem;
+        }
+        
+        .images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .image-container {
+            text-align: center;
+        }
+        
+        .image-container h4 {
+            margin-bottom: 0.5rem;
+            color: #666;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .diff-info {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        
+        .no-diffs {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            padding: 2rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            border-top: 1px solid #eee;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Visual Regression Test Results</h1>
+            <p>Generated on 9/5/2025, 8:12:17 PM</p>
+            <div class="stats">
+                <div class="stat total">
+                    <span class="stat-number">12</span>
+                    Total Tests
+                </div>
+                <div class="stat passed">
+                    <span class="stat-number">12</span>
+                    Passed
+                </div>
+                <div class="stat failed">
+                    <span class="stat-number">0</span>
+                    Failed
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">home_1024px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">home_1280px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">home_1920px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">home_320px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">home_600px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">home_768px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">json_1024px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">json_1280px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">json_1920px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">json_320px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">json_600px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    <div class="test-item">
+      <div class="test-header">
+        <div class="test-name">json_768px.png</div>
+        <div class="test-status status-passed">Passed</div>
+      </div>
+      <div class="test-content">
+        <div class="no-diffs">✅ No visual differences detected</div>
+      </div>
+    </div>
+  
+    </div>
+    
+    <div class="footer">
+        <p>Visual Regression Testing powered by Playwright</p>
+    </div>
+</body>
+</html>

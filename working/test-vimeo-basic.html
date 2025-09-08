@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Vimeo Test</title>
+</head>
+<body>
+    <h1>Basic Vimeo Embed Test</h1>
+
+    <!-- Test Video 1 -->
+    <h3>Test Video 1 - with autoplay</h3>
+    <iframe
+        src="https://player.vimeo.com/video/76979871?autoplay=1&title=0&byline=0&portrait=0&muted=1&background=1"
+        width="640"
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+        title="Test Video 1"
+    ></iframe>
+
+    <!-- Test Video 2 -->
+    <h3>Test Video 2 - static</h3>
+    <iframe
+        src="https://player.vimeo.com/video/76979871?autoplay=0&title=0&byline=0&portrait=0&muted=1&background=0"
+        width="640"
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+        title="Test Video 2"
+    ></iframe>
+
+    <script>
+        console.log('Basic Vimeo test page loaded');
+        console.log('Vimeo iframes detected:', document.querySelectorAll('iframe[src*="vimeo.com"]').length);
+
+        // Log when videos are ready
+        setTimeout(() => {
+            console.log('Page fully loaded - checking for Vimeo iframes:');
+            document.querySelectorAll('iframe').forEach((frame, index) => {
+                console.log(`Iframe ${index}: `, frame.src);
+            });
+        }, 2000);
+    </script>
+</body>
+</html>

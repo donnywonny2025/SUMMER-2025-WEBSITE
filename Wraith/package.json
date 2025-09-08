@@ -1,0 +1,35 @@
+{
+  "name": "wraith-visual-regression",
+  "version": "1.0.0",
+  "description": "Modern visual regression testing setup using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && npx playwright install",
+    "capture": "node scripts/capture.js",
+    "capture:baseline": "node scripts/capture.js local baseline",
+    "capture:latest": "node scripts/capture.js local latest",
+    "compare": "node scripts/compare.js",
+    "gallery": "node scripts/generate-gallery.js",
+    "test": "node scripts/run-tests.js",
+    "test:local": "node scripts/run-tests.js local",
+    "test:production": "node scripts/run-tests.js production",
+    "test:test": "node scripts/run-tests.js test",
+    "clean": "rm -rf shots/baseline/* shots/latest/* shots/diffs/* shots/gallery/*"
+  },
+  "keywords": [
+    "visual-regression",
+    "testing",
+    "playwright",
+    "screenshots"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "playwright": "^1.40.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0",
+    "fs-extra": "^11.1.1",
+    "yargs": "^17.7.2"
+  }
+}

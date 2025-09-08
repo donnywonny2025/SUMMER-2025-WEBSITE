@@ -98,5 +98,15 @@ Key/
 *.bak
 *.backup
 *.old
->>>>>>> 0505292ca102fb18ce47b521ccd9b646f6536c40*/old/jeffreykerr-enhanced/.git/
-*/working/.git/
+
+# Ignore embedded Git repositories
+versions/old/jeffreykerr-enhanced/.git/
+working/.git/
+.clinerules/byterover-rules.md
+.kilocode/rules/byterover-rules.md
+.roo/rules/byterover-rules.md
+.windsurf/rules/byterover-rules.md
+.cursor/rules/byterover-rules.mdc
+.kiro/steering/byterover-rules.md
+.qoder/rules/byterover-rules.md
+.augment/rules/byterover-rules.md

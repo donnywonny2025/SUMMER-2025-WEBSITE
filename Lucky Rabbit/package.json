@@ -1,0 +1,23 @@
+{
+  "name": "lucky-rabbit-website",
+  "version": "1.0.0",
+  "description": "Lucky Rabbit website scraper and rebuild",
+  "type": "module",
+  "main": "scrape-lucky-rabbit.js",
+  "scripts": {
+    "scrape": "node scrape-lucky-rabbit.js",
+    "start": "npm run scrape",
+    "fix": "node fix-lucky-rabbit.js"
+  },
+  "keywords": [
+    "lucky-rabbit",
+    "website",
+    "scraper",
+    "rebuild"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}

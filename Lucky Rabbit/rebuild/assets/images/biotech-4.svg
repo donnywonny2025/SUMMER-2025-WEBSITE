@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#CDDC39"/>
+  <text x="200" y="150" font-family="Arial" font-size="24" fill="#333" text-anchor="middle" dominant-baseline="middle">Bioinformatics</text>
+  <path d="M150,120 L250,120 M150,180 L250,180" stroke="#333" stroke-width="2"/>
+  <circle cx="170" cy="120" r="5" fill="#333"/>
+  <circle cx="200" cy="120" r="5" fill="#333"/>
+  <circle cx="230" cy="120" r="5" fill="#333"/>
+  <circle cx="170" cy="180" r="5" fill="#333"/>
+  <circle cx="200" cy="180" r="5" fill="#333"/>
+  <circle cx="230" cy="180" r="5" fill="#333"/>
+  <path d="M170,120 L170,180 M200,120 L200,180 M230,120 L230,180" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+</svg>
