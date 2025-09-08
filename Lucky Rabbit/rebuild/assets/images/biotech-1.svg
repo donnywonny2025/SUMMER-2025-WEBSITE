@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
-  <rect width="400" height="300" fill="#689F38"/>
-  <text x="200" y="150" font-family="Arial" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">Genetic Research</text>
-  <path d="M150,100 L250,100 M150,120 L250,120 M150,140 L250,140 M150,160 L250,160 M150,180 L250,180 M150,200 L250,200" stroke="white" stroke-width="2"/>
-</svg>
