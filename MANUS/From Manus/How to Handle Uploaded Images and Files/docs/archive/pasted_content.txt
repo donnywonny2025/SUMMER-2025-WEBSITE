@@ -1,0 +1,99 @@
+EFFREY KERR PORTFOLIO WEBSITE - DESIGN RECREATION
+🎯 WHAT WE'RE BUILDING
+Create a professional portfolio website for Jeffrey Kerr that captures the exact aesthetic and functionality of samkolder.com - the same beautiful animations, video handling, smooth scroll effects, and minimalist design, but built with modern React/Vite/GSAP from scratch using Jeffrey's actual content.
+
+💡 DESIGN INSPIRATION
+Reference Site: https://samkolder.com/
+Style Requirements:
+
+Same clean, minimalist design language
+Same typography hierarchy and positioning
+Same video thumbnail system and play mechanisms
+Same smooth GSAP animations and transitions
+Same color palette and visual effects
+Same professional layout and spacing
+👤 PERSONAL INFORMATION
+Name: Jeffrey Kerr
+Title: Creative Technologist
+Tagline: "Creative technologist blending AI with storytelling"
+Bio Description: "Pushing boundaries of visual narrative through innovative technology and artistic vision. From broadcast to interactive, creating connections between brands and audiences."
+Contact: colour8k@mac.com
+Location: Grand Rapids, MI
+
+Social: LinkedIn (jefferykerrcreative), YouTube (OfficialJefferyKerr)
+
+🎬 VIMEO VIDEO CONTENT (Main Focus)
+All videos should use the same embedding system and thumbnail approach as samkolder.com:
+
+1. PORTFOLIO REEL (Hero Video)
+Vimeo URL: https://vimeo.com/919597870
+Vimeo ID: 919597870
+Thumbnail: https://vumbnail.com/919597870.jpg
+Use: Hero background with autoplay/loop/muted
+Client: Portfolio Reel
+2. NEW BALANCE COMMERCIAL
+Vimeo URL: https://vimeo.com/641527142
+Vimeo ID: 641527142
+Thumbnail: https://vumbnail.com/641527142.jpg
+Client: New Balance
+3. CANCER RESEARCH DOCUMENTARY
+Vimeo URL: https://vimeo.com/641502508
+Vimeo ID: 641502508
+Thumbnail: https://vumbnail.com/641502508.jpg
+Client: Cancer Center
+4. LONE SURVIVOR TOUR
+Vimeo URL: https://vimeo.com/641502009
+Vimeo ID: 641502009
+Thumbnail: https://vumbnail.com/641502009.jpg
+Client: Lone Survivor Tour
+5. CENTURY 21 TEASER (Sports)
+Vimeo URL: https://vimeo.com/641606856
+Vimeo ID: 641606856
+Thumbnail: https://vumbnail.com/641606856.jpg
+Client: Century 21
+6. VARIOUS CLIENTS
+Vimeo URL: https://vimeo.com/919597870 (portfolio reel)
+Vimeo ID: 919597870
+Thumbnail: https://picsum.photos/800/450?random=additional
+Client: Various Clients
+🎨 KEY FEATURES TO IMPLEMENT (Must-Have)
+Video System (Same as Sam):
+Thumbnails: Use vumbnail.com API for all video thumbnails
+Player Integration: Vimeo iframe with same parameters
+Transition Effects: Smooth dark→light fade effects on scroll
+Play Functionality: Click thumbnail to launch player overlay
+Background Video: Hero uses reel with autoplay/loop/muted
+Animation System (Same GSAP Effects as Sam):
+Smooth Page Entry: Professional entrance animations
+Scroll Triggers: Video transitions on scroll visibility
+Hover Effects: Subtle scale/shadow effects on video cards
+Scroll Indicator: Same progress indicator style
+Easing Curves: Matching professional timing curves
+Visual Effects (Same Aesthetic):
+Blurring Effects: Same blur transitions on videos
+Gradient Overlays: Gentle gradients over video thumbnails
+Background Graphics: Subtle geometrical elements
+Color Palette: Same black/white/minimal color scheme
+Shadow System: Same layered depth with shadows
+Layout & Typography:
+Grid System: Same clean portfolio grid layout
+Type Hierarchy: Same font sizes and weight distribution
+Spacing: Same generous whitespace and padding
+Responsive: Same breakpoint behavior
+Technical Implementation:
+React + Vite: Modern development stack
+GSAP: Same animation library and effects
+Responsive Design: Mobile-first approach
+Performance: Optimized video loading
+Accessibility: Proper ARIA labels and keyboard navigation
+🚀 DELIVERABLE REQUIREMENTS
+Create a website that captures samkolder.com's signature features:
+✅ Same Visual Design - Typography, layout, colors, spacing
+✅ Same Video Experience - Thumbnails, players, transitions
+
+✅ Same Animations - GSAP timing, easing, scroll effects
+✅ Same Feel - Professional, clean, modern aesthetic
+✅ Jeffrey's Content - All videos, info, contact details integrated
+
+🎯 SUCCESS MEASUREMENT
+When finished, the site should feel like "this is exactly what Sam's looks like, just with Jeffrey's videos" - same functionality, same beautiful effects, same professional feel.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <path fill="#ffffff" d="M120 30h60v40h-60z"/>
+  <path fill="#ffffff" d="M120 30l30 40h-30V30z"/>
+  <path fill="#ffffff" d="M180 30l-30 40h30V30z"/>
+  <path fill="#ffffff" d="M60 30h50v10H60z"/>
+  <path fill="#ffffff" d="M60 45h50v10H60z"/>
+  <path fill="#ffffff" d="M60 60h50v10H60z"/>
+  <path fill="#ffffff" d="M190 30h50v10h-50z"/>
+  <path fill="#ffffff" d="M190 45h50v10h-50z"/>
+  <path fill="#ffffff" d="M190 60h50v10h-50z"/>
+</svg>
