@@ -30,3 +30,4 @@
 - Make one change at a time and verify each
 
 **Goal**: Pixel-perfect match with Sam Kolder's site design
+

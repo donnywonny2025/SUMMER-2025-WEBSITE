@@ -87,7 +87,7 @@ body::before {
 
 .logo {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--text-primary);
   text-decoration: none;
@@ -96,7 +96,7 @@ body::before {
 }
 
 .logo-k {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
   vertical-align: baseline;
   line-height: 1;
@@ -449,6 +449,60 @@ body::before {
   }
 }
 
+/* Hero Video Play Button */
+.hero-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 16px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+
+.hero-play-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.hero-play-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-play-icon {
+  width: 0;
+  height: 0;
+  border-left: 16px solid rgba(255, 255, 255, 0.9);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.hero-play-button:hover .hero-play-icon {
+  border-left-color: rgba(255, 255, 255, 1);
+}
+
+.hero-play-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.hero-play-button:hover .hero-play-text {
+  color: rgba(255, 255, 255, 1);
+}
+
 .play-button-circular {
   position: absolute;
   top: 50%;
@@ -610,8 +664,10 @@ body::before {
 .featured-video-thumbnail {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  aspect-ratio: 16/9; /* Match video grid items */
   overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .featured-video-thumbnail iframe {

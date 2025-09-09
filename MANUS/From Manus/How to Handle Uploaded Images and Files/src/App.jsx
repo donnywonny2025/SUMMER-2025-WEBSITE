@@ -1,10 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import './fonts.css';
-import { TextShimmer } from '../components/motion-primitives/text-shimmer';
+import './App.css';
 import { Tilt } from '../components/motion-primitives/tilt';
-import { 
+import {
   MorphingDialog,
   MorphingDialogTrigger,
   MorphingDialogContent,
@@ -15,6 +14,9 @@ import {
   MorphingDialogDescription,
   MorphingDialogContainer,
 } from '../components/motion-primitives/morphing-dialog';
+import { TextShimmer } from '../components/motion-primitives/text-shimmer';
+import { SafeWrapper } from './components/SafeWrapper';
+import { DigitalClock } from '../components/motion-primitives/digital-clock';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,6 +26,45 @@ function App() {
   const [currentVideo, setCurrentVideo] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const videoRefs = useRef([]);
+
+  // Aggressive scroll to top on page load/reload
+  useEffect(() => {
+    // Disable browser scroll restoration
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+    
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      if (window.pageYOffset !== 0) {
+        window.pageYOffset = 0;
+      }
+    };
+    
+    // Immediate scroll
+    scrollToTop();
+    
+    // Multiple delayed attempts to ensure it works
+    setTimeout(scrollToTop, 0);
+    setTimeout(scrollToTop, 1);
+    setTimeout(scrollToTop, 10);
+    setTimeout(scrollToTop, 50);
+    setTimeout(scrollToTop, 100);
+    setTimeout(scrollToTop, 200);
+    
+    // Also handle any potential async operations
+    requestAnimationFrame(scrollToTop);
+    
+    // Handle window load event
+    const handleLoad = () => scrollToTop();
+    window.addEventListener('load', handleLoad);
+    
+    return () => {
+      window.removeEventListener('load', handleLoad);
+    };
+  }, []);
 
   useEffect(() => {
     // GSAP scroll animations for video cards
@@ -53,14 +94,6 @@ function App() {
             }
           );
         }
-      });
-
-      // Rotating text animation
-      gsap.to(".rotating-text", {
-        rotation: 360,
-        duration: 20,
-        ease: "none",
-        repeat: -1
       });
 
       // Refresh ScrollTrigger to ensure animations work
@@ -197,12 +230,12 @@ function App() {
   const videos = [
     {
       id: 'reel-2024',
-      title: 'Reel 2024',
+      title: 'Featured Showreel',
       client: 'Jeff Kerr',
-      date: '2024',
-      thumbnail: 'https://vumbnail.com/919597870.jpg',
-      embedUrl: 'https://player.vimeo.com/video/919597870',
-      description: 'A comprehensive showcase of Jeff Kerr\'s filmmaking work, featuring stunning visuals and innovative storytelling.',
+      date: '2025',
+      thumbnail: 'https://vumbnail.com/1029802990.jpg',
+      embedUrl: 'https://player.vimeo.com/video/1029802990',
+      description: 'A collection of clips from various projects over the years, blending traditional filmmaking with AI-generated content to create stunning visuals.',
       credits: ['Jeff Kerr - Director, Cinematographer', 'Various Clients - Production']
     },
     {
@@ -244,7 +277,7 @@ function App() {
         <header className="header">
           <div className="header-content">
             <a href="#" onClick={goHome} className="logo">
-              <TextShimmer duration={3} spread={1.5}>
+              <TextShimmer duration={3} spread={1.5} fontSize="36px">
                 <span className="logo-k">k</span>err
               </TextShimmer>
             </a>
@@ -346,15 +379,15 @@ function App() {
               <a href="#" aria-label="YouTube">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                </svg>
-              </a>
-            </div>
-            <div className="footer-copyright">
-              © 2025 Jeff Kerr. Crafting visual stories that move the world forward.
-            </div>
+              </svg>
+            </a>
           </div>
-        </footer>
-      </div>
+          <div className="footer-copyright">
+            2025 Jeff Kerr. Crafting visual stories that move the world forward.
+          </div>
+        </div>
+      </footer>
+    </div>
     );
   }
 
@@ -362,36 +395,84 @@ function App() {
     <div className="App">
       {/* Header */}
       <header className="header">
-        <div className="header-content">
+        <div className="header-content" style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          width: '100%'
+        }}>
           <a href="#" className="logo">
             <TextShimmer duration={3} spread={1.5}>
               <span className="logo-k">k</span>err
             </TextShimmer>
           </a>
-          <MorphingDialog
-            transition={{
-              type: 'spring',
-              bounce: 0.05,
-              duration: 0.25,
-            }}
-          >
-            <MorphingDialogTrigger
-              className={`hamburger ${menuOpen ? 'open' : ''}`}
-              style={{
-                background: 'none',
-                border: 'none',
-                cursor: 'pointer',
-                padding: '12px',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'space-around',
-                width: '40px',
-                height: '40px',
+          {/* Right side container */}
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '20px'
+          }}>
+            {/* Digital Clock - Left of hamburger */}
+            <SafeWrapper>
+              <DigitalClock />
+            </SafeWrapper>
+
+            {/* Hamburger Menu - Far right */}
+            <MorphingDialog
+              transition={{
+                type: 'spring',
+                bounce: 0.05,
+                duration: 0.25,
               }}
             >
-              <span style={{display: 'block', height: '2px', background: 'white', width: '100%'}}></span>
-              <span style={{display: 'block', height: '2px', background: 'white', width: '100%'}}></span>
-              <span style={{display: 'block', height: '2px', background: 'white', width: '100%'}}></span>
+              <MorphingDialogTrigger
+                className={`hamburger ${menuOpen ? 'open' : ''}`}
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  cursor: 'pointer',
+                  padding: '12px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-around',
+                  width: '40px',
+                  height: '40px',
+                  transition: 'all 0.3s ease',
+                }}
+                onMouseEnter={(e) => {
+                  const spans = e.currentTarget.querySelectorAll('span');
+                  spans.forEach(span => {
+                    span.style.background = 'white';
+                  });
+                }}
+                onMouseLeave={(e) => {
+                  const spans = e.currentTarget.querySelectorAll('span');
+                  spans.forEach(span => {
+                    span.style.background = '#a1a1aa';
+                  });
+                }}
+              >
+              <span style={{
+                display: 'block',
+                height: '2px',
+                background: '#a1a1aa',
+                width: '100%',
+                transition: 'background-color 0.3s ease'
+              }}></span>
+              <span style={{
+                display: 'block',
+                height: '2px',
+                background: '#a1a1aa',
+                width: '100%',
+                transition: 'background-color 0.3s ease'
+              }}></span>
+              <span style={{
+                display: 'block',
+                height: '2px',
+                background: '#a1a1aa',
+                width: '100%',
+                transition: 'background-color 0.3s ease'
+              }}></span>
             </MorphingDialogTrigger>
             <MorphingDialogContainer>
               <MorphingDialogContent
@@ -434,6 +515,7 @@ function App() {
               </MorphingDialogContent>
             </MorphingDialogContainer>
           </MorphingDialog>
+          </div>
         </div>
       </header>
 
@@ -469,8 +551,8 @@ function App() {
       )}
 
       {/* Hero Section */}
-      <section className="hero">
-        <div className="hero-content">
+      <section className="hero" style={{ position: 'relative' }}>
+        <div className="hero-content" style={{ position: 'relative', zIndex: 2 }}>
           <h1>Jeff Kerr produces compelling visual content while building AI-enhanced workflows that change how creative work gets done.</h1>
           <div className="hero-meta">
             <div className="meta-item">
@@ -483,14 +565,13 @@ function App() {
             </div>
           </div>
         </div>
-        
 
         {/* Hero Video */}
         <div className="hero-video">
           <div className="hero-video-card">
             <div className="hero-video-container">
             <iframe
-              src="https://player.vimeo.com/video/1029802990?h=a1b2c3d4e5&autoplay=1&muted=1&loop=1&background=1"
+              src="https://player.vimeo.com/video/1116767679?autoplay=1&muted=1&loop=1&background=1"
               style={{
                 width: '100%',
                 height: '100%',
@@ -502,22 +583,14 @@ function App() {
               title="Hero Video"
             ></iframe>
             
-            {/* Circular Showreel Element - positioned within video container */}
-            <div className="circular-showreel" onClick={() => handleVideoClick(videos[0])}>
-              <div className="circular-showreel-inner">
-                <svg className="rotating-text" viewBox="0 0 200 200">
-                  <path id="circlePath" fill="none" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"></path>
-                  <text>
-                    <textPath href="#circlePath" startOffset="0%">
-                      SHOWREEL • SHOWREEL • SHOWREEL • SHOWREEL • SHOWREEL •
-                    </textPath>
-                  </text>
-                </svg>
-                <div className="play-button-circular">
-                  <div className="play-icon-circular"></div>
-                </div>
+            {/* Hero Video Play Button Overlay */}
+            <div className="hero-play-button" onClick={() => handleVideoClick(videos[0])}>
+              <div className="hero-play-content">
+                <div className="hero-play-icon"></div>
+                <span className="hero-play-text">PLAY FEATURED VIDEO</span>
               </div>
             </div>
+            
           </div>
           </div>
         </div>
@@ -544,13 +617,34 @@ function App() {
               ref={el => videoRefs.current[0] = el}
             >
               <div className="featured-video-thumbnail">
-                <iframe
-                  src={`${videos[0].embedUrl}?autoplay=1&muted=1&loop=1&background=1`}
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  title={videos[0].title}
-                ></iframe>
+                <img 
+                  src={videos[0].thumbnail} 
+                  alt={videos[0].title}
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover'
+                  }}
+                />
+                
+                {/* Circular Showreel Element - positioned within featured video container */}
+                <div className="circular-showreel" onClick={() => handleVideoClick(videos[0])}>
+                  <div className="circular-showreel-inner">
+                    <svg className="rotating-text" viewBox="0 0 200 200">
+                      <defs>
+                        <path id="circle" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" />
+                      </defs>
+                      <text fontSize="14" fontWeight="700" letterSpacing="2px" fontFamily="'Space Mono', monospace">
+                        <textPath href="#circle">
+                          SHOWREEL • SHOWREEL • SHOWREEL • SHOWREEL • 
+                        </textPath>
+                      </text>
+                    </svg>
+                    <div className="play-button-circular">
+                      <div className="play-icon-circular"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </Tilt>
@@ -560,11 +654,11 @@ function App() {
       {/* Separator for Featured Video */}
       <section className="video-separator">
         <div className="separator-content">
-          <div className="separator-text">A comprehensive showcase of filmmaking work, featuring stunning visuals and innovative storytelling...</div>
+          <div className="separator-text">A collection of clips from various projects over the years, blending traditional filmmaking with AI-generated content to create stunning visuals.</div>
           <div className="separator-line"></div>
-          <div className="separator-text">Commercial</div>
+          <div className="separator-text">Featured Showreel</div>
           <div className="separator-line"></div>
-          <div className="separator-text">2024</div>
+          <div className="separator-text">2025</div>
           <div className="separator-line"></div>
         </div>
       </section>
@@ -580,29 +674,15 @@ function App() {
                 ref={el => videoRefs.current[index + 1] = el}
               >
                 <div className="video-thumbnail">
-                  {video.embedUrl ? (
-                    <iframe
-                      src={`${video.embedUrl}?autoplay=1&muted=1&loop=1&background=1`}
-                      frameBorder="0"
-                      allow="autoplay; fullscreen; picture-in-picture"
-                      allowFullScreen
-                      title={video.title}
-                      style={{
-                        transform: 'scale(1.8)',
-                        transformOrigin: 'center center'
-                      }}
-                    ></iframe>
-                  ) : (
-                    <img 
-                      src={video.thumbnail} 
-                      alt={video.title}
-                      style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover'
-                      }}
-                    />
-                  )}
+                  <img 
+                    src={video.thumbnail} 
+                    alt={video.title}
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover'
+                    }}
+                  />
                 </div>
               </div>
               
@@ -652,7 +732,7 @@ function App() {
             </a>
           </div>
           <div className="footer-copyright">
-            © 2025 Jeff Kerr. Crafting visual stories that move the world forward.
+            2025 Jeff Kerr. Crafting visual stories that move the world forward.
           </div>
         </div>
       </footer>

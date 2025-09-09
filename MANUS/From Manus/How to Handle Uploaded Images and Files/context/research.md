@@ -17,6 +17,14 @@
 - Footer with contact information
 - All content is correct - need design adjustments only
 
+## TextRoll Animation Implementation - APPROVED
+- **Request**: Add TextRoll motion primitive to h1 hero text - USER APPROVED
+- **Source**: https://motion-primitives.com/docs/text-roll
+- **Target element**: "Jeff Kerr produces compelling visual content while building AI-enhanced workflows that change how creative work gets done."
+- **Pattern**: Follow existing motion-primitives pattern (TextShimmer, Tilt)
+- **Implementation**: Word-by-word roll animation with stagger delays
+- **Integration**: Replace h1 with TextRoll component, maintain styling
+
 ## Visual Verification Process
 - **Issue Identified**: Screenshot commands hanging, need reliable visual verification
 - **Solution**: Created `bulletproof-screenshot.js` with timeout protection and port detection
@@ -42,6 +50,17 @@
 - **Problem**: No pixel-perfect measurement extraction from Sam Kolder's site
 - **Impact**: Tiny changes (1.8rem vs 2.4rem) instead of spot-on accuracy
 - **Solution Needed**: Build comprehensive measurement extraction system
+
+## Page Reload Scroll Issue - TESTING REQUIRED
+- **Issue**: User reports page still doesn't start at top despite enhanced solution
+- **Current implementation**: Enhanced scroll reset with multiple approaches and timing
+- **Visual verification**: Shows page at top, but user experience may differ
+- **Need to test**: 
+  - Different browsers (Chrome, Firefox, Safari)
+  - Hard refresh vs soft refresh behavior
+  - Cache clearing impact
+  - Router-level scroll restoration
+- **Files modified**: App.jsx lines 28-51 with comprehensive scroll handling
 
 ## Next Phase Requirements
 - **URGENT**: Build measurement extraction system for pixel-perfect accuracy

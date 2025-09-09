@@ -39,12 +39,12 @@ export function TextRoll({
 }: TextRollProps) {
   const defaultVariants = {
     enter: {
-      initial: { rotateX: 0 },
-      animate: { rotateX: 90 },
-    },
-    exit: {
       initial: { rotateX: 90 },
       animate: { rotateX: 0 },
+    },
+    exit: {
+      initial: { rotateX: 0 },
+      animate: { rotateX: 90 },
     },
   } as const;
 
@@ -60,7 +60,7 @@ export function TextRoll({
             aria-hidden='true'
           >
             <motion.span
-              className='absolute inline-block [backface-visibility:hidden] [transform-origin:50%_25%]'
+              className='inline-block'
               initial={
                 variants?.enter?.initial ?? defaultVariants.enter.initial
               }
@@ -71,18 +71,6 @@ export function TextRoll({
                 ...transition,
                 duration,
                 delay: getEnterDelay(i),
-              }}
-            >
-              {letter === ' ' ? '\u00A0' : letter}
-            </motion.span>
-            <motion.span
-              className='absolute inline-block [backface-visibility:hidden] [transform-origin:50%_100%]'
-              initial={variants?.exit?.initial ?? defaultVariants.exit.initial}
-              animate={variants?.exit?.animate ?? defaultVariants.exit.animate}
-              transition={{
-                ...transition,
-                duration,
-                delay: getExitDelay(i),
               }}
               onAnimationComplete={
                 letters.length === i + 1 ? onAnimationComplete : undefined

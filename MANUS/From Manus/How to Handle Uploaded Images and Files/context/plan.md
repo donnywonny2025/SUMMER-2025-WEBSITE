@@ -11,6 +11,26 @@
 - **Documentation**: Comprehensive START-HERE.js project guide created
 - **Workflow**: Context files updated to reflect current status
 
+## 🚨 CURRENT TASK: Implement TextRoll Animation - APPROVED FOR EXECUTION
+
+### Implementation Plan - USER APPROVED:
+**Target**: Hero h1 text "Jeff Kerr produces compelling visual content while building AI-enhanced workflows that change how creative work gets done."
+**Component**: TextRoll from motion-primitives
+**Pattern**: Follow existing TextShimmer/Tilt implementation pattern
+
+### Implementation Steps - EXECUTING:
+1. ✅ Create text-roll.tsx component in `/components/motion-primitives/`
+2. ✅ Import TextRoll in App.jsx  
+3. ✅ Replace h1 element with TextRoll wrapper
+4. 🔄 Apply changes and test functionality
+5. 🔄 Run visual verification to ensure no layout breaks
+6. 🔄 Update progress.md with results
+
+### Code Changes Required:
+- **File**: `/components/motion-primitives/text-roll.tsx` (create new)
+- **File**: `/src/App.jsx` (modify imports and hero h1)
+- **Pattern**: Word-by-word animation with stagger delays
+
 ## 🚨 NEXT PHASE: Content & Feature Development
 
 ### Potential Development Areas:
